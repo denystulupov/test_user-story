@@ -1,0 +1,72 @@
+.App {
+  padding-top: 5px;
+  font-family: sans-serif;
+}
+
+.Title {
+  text-align: center;
+}
+
+.Item {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-left: 1px dashed #999;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.Input {
+  margin-right: 3px;
+}
+
+.liftButtons {
+  margin-right: 10px;
+  width: 30px;
+  position: absolute;
+  top: -2px;
+  left: -45px;
+}
+
+.liftButtons button {
+  margin-bottom: -1px;
+}
+
+.removeButton {
+  position: absolute;
+  top: 5px;
+  left: 700px;
+}
+
+.controlButton {
+  position: absolute;
+  top: 6px;
+  left: 580px;
+}
+
+.sortButtonApp {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+}
+
+.sortButtonApp :first-child {
+  margin-right: 3px;
+}
+
+.sortButton {
+  position: absolute;
+  top: 6px;
+  left: 450px;
+}
+
+.sortButton :first-child {
+  margin-right: 3px;
+}
+
+span {
+  font-weight: bold;
+}
